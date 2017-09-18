@@ -2,8 +2,8 @@
 Repo of personal python code from courses and self projects.
 
 Contents:
-- RPG_Text_Game: contains files related to a RPG game created within the Stack Skillz course
-    "The Complete Python Course: Beginner to Advanced!"
+- RPG_Text_Game: contains files related to a RPG game created within the Stack Skills course
+    "The Complete Python Course: Beginner to Advanced!" available at https://stackskills.com/courses/
     - Game covers python syntax, class creation and instantiation, and programming a dynamic game battle script
     - To play:
         - run the main.py script, the game exeutes in the terminal.

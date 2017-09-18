@@ -1,8 +1,9 @@
 
-from classes.game import Person, bcolors
-from classes.magic import Spell
-from classes.inventory import Item
 import random
+
+from RPG_Text_Game.classes.inventory import Item
+from RPG_Text_Game.classes.game  import Person, bcolors
+from RPG_Text_Game.classes.magic  import Spell
 
 #enhancement ideas!
 #TODO: log stats for battles for each player

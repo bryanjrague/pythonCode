@@ -218,12 +218,13 @@ while running:
     if defeated_enemies == len(enemies):
         print(bcolors.OKGREEN + bcolors.BOLD + "*** All enemies defeated! You win! ***" + bcolors.ENDC)
         running = False
-        break
+        continue
+
 
     if defeated_players == len(players):
         print(bcolors.FAIL + bcolors.BOLD + "*** All players have died! You lose! ***" + bcolors.ENDC)
         running = False
-        break
+        continue
 
     # if battle is still going on, each enemy chooses player, attacks and deals damage
     for e in enemies:

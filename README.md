@@ -2,7 +2,7 @@
 Repo of personal python code from courses and self projects.
 
 Contents:
-- Basics: Module containing test code for basic python actions. Most likely not interesting to anyone.
+- Basics: Module containing test code experimenting with basic python tasks.
 - RPG_Text_Game: contains files related to a RPG game created within the Stack Skills course
     "The Complete Python Course: Beginner to Advanced!" available at https://stackskills.com/courses/
     - Game covers python syntax, class creation and instantiation, and programming a dynamic game battle script
@@ -24,4 +24,8 @@ Contents:
         - once magic or items has been chosen as the action, you cannot go back and change the action. Instead, you must
         choose a spell or item.
         - invalid option entries can cause the program to fail.
-- WebScraperApp: contains files for a web scapper app built in python.
+- WebScraperApp: contains files for basic web scapper apps.
+    - imageScrapper.py: contains a looping script to download a user specified number of images which are returned by
+    the bing images search meeting a user defined search text.
+    - SearchTextScrapper.py: script which runs a bing search against user defined search terms and then extracts data
+    about search results using the BeautifulSoup library.
